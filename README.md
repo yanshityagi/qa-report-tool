@@ -42,6 +42,17 @@ export default defineConfig({
 | `appName`   | `"QA"`     | Shown in report titles/headers (e.g. `"Mobile E2E"`).            |
 | `outputDir` | `"reports"`| Directory (relative to cwd) reports are written to.                  |
 
+### Prerequisite: turn on video capture
+
+This reporter only *embeds* video that Playwright itself already recorded — it does not record video on its own. If your report shows "No video recorded for this test" for every test, your app's `playwright.config.ts` is missing video capture. Add it under `use:`:
+
+```ts
+use: {
+  video: 'on', // or 'retain-on-failure' to only keep video for failed tests
+  // ...
+},
+```
+
 ## Develop
 
 ```bash
