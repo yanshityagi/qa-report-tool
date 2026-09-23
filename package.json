@@ -1,0 +1,24 @@
+{
+  "name": "qa-report-tool",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "A reusable Playwright reporter that produces a shareable, self-contained HTML report with embedded per-test video, frame annotation, and pinned comments — for use across multiple app test repos.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "prepare": "npm run build"
+  },
+  "peerDependencies": {
+    "@playwright/test": ">=1.40"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "@types/node": "^22.0.0",
+    "typescript": "^5.6.0"
+  }
+}
