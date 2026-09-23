@@ -39,7 +39,7 @@ export default defineConfig({
 
 | Option      | Default    | Description                                                        |
 | ----------- | ---------- | -------------------------------------------------------------------- |
-| `appName`   | `"QA"`     | Shown in report titles/headers (e.g. `"DGR Mobile E2E"`).            |
+| `appName`   | `"QA"`     | Shown in report titles/headers (e.g. `"Mobile E2E"`).            |
 | `outputDir` | `"reports"`| Directory (relative to cwd) reports are written to.                  |
 
 ## Develop
