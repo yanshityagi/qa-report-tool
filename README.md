@@ -61,3 +61,9 @@ npm run build   # compiles src/ -> dist/
 ```
 
 The `prepare` script runs the build automatically when this package is installed as a git dependency, so consumers never need to build it themselves.
+
+## Screenshot
+
+<img width="1440" height="709" alt="Screenshot 2026-09-25 at 21 26 56" src="https://github.com/user-attachments/assets/076ada06-83c1-4d54-ab0e-9f948915dc05" />
+
+
