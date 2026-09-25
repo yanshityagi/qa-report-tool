@@ -112,7 +112,7 @@ function ansiToHtml(s: string): string {
 }
 
 export interface ShareableReportReporterOptions {
-  /** Shown in report titles/headers, e.g. "DGR Mobile E2E". Defaults to "QA". */
+  /** Shown in report titles/headers, e.g. "Mobile E2E". Defaults to "QA". */
   appName?: string;
   /** Directory (relative to cwd) reports are written to. Defaults to "reports". */
   outputDir?: string;
